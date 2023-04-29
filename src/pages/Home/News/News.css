@@ -1,0 +1,83 @@
+.news-main-div{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.title-content{
+    padding: 16px 20px;
+    background: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px 5px 0px 0px;
+}
+.person-info .img-person{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.person-bio h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #403F3F;
+    margin: 0;
+}
+.person-bio p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;   
+    color: #706F6F;
+    margin: 0;
+}
+
+.body-content{
+    padding: 16px 20px;
+}
+.body-content h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #403F3F;
+    margin-bottom: 20px;
+}
+.body-content .big-img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.body-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;  
+    color: #706F6F;
+}
+.body-content p .show-more{
+    background: linear-gradient(90deg, #FF8C47 0%, #F75B5F 100.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+hr{
+    border: 1px solid #24242485;
+    margin: 30px 0;
+}
+
+.stars p{
+     margin: 0 0 0 10px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+     color: #706F6F;
+}
+.symbol{
+    color: #FF8C47;
+}
+
+.view .eye-icon{
+    margin-right: 8px;
+    width: 30px;
+    height: 20px;
+}

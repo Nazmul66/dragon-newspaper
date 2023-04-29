@@ -1,0 +1,83 @@
+.btn-google{
+    border: 2px solid #406997;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 6px;
+    color: #406997;
+    margin-bottom: 6px;
+}
+.btn-github{
+  border: 2px solid #242424;
+  width: 100%;
+  padding: 5px 0px;
+  border-radius: 6px;
+  color: #242424;
+}
+
+.social-link{
+    margin: 40px 0 10px 0;
+}
+.social-link ul{
+   padding: 0;
+}
+.social-link ul li{
+    list-style: none;
+    padding: 8px 20px;
+    border: 1px solid #E7E7E7;
+}
+.facebook{
+    border-bottom: none !important;  
+}
+.twitter{
+    border-bottom: none !important;
+}
+.social-link ul li a{
+    text-decoration: none;
+    color: #706F6F;
+}
+
+.images{
+    background-color: #F3F3F3;
+    padding: 28px 10px 16px;
+    margin-bottom: 30px;
+}
+.images h4{
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+.images img{
+    width: 100%;
+}
+
+.colorFul-bg{
+    background: url(../../../assets/bg1.png);
+    padding: 60px 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.colorFul-bg::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.colorFul-bg h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.colorFul-bg p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
