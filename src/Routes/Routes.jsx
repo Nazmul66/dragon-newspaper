@@ -17,12 +17,12 @@ const router = createBrowserRouter([
          {
            path: "/",
            element: <Category></Category>,
-           loader: () => fetch("http://localhost:4800/news"),
+           loader: () => fetch("https://dragon-newspaper-server.vercel.app/news"),
          },
          {
            path: "/category/:id",
            element: <Category></Category>,
-           loader: ({ params }) => fetch(`http://localhost:4800/category/${params.id}`)
+           loader: ({ params }) => fetch(`https://dragon-newspaper-server.vercel.app/category/${params.id}`)
          },
          {
            path: "/about",
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         {
           path: "/news/:id",
           element: <PrivateRoute><NewsLight></NewsLight></PrivateRoute>,
-          loader: ({ params }) => fetch(`http://localhost:4800/news/${params.id}`) 
+          loader: ({ params }) => fetch(`https://dragon-newspaper-server.vercel.app/news/${params.id}`) 
         }
       ]
     },

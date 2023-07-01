@@ -20,8 +20,8 @@ const AuthProvider = ({ children }) => {
 
     // signIn user form
     const signIn = (email, password) =>{
-        setLoading(true);
         return  signInWithEmailAndPassword(auth, email, password)
+        setLoading(true);
     }
 
     // signOut user form
@@ -32,22 +32,22 @@ const AuthProvider = ({ children }) => {
 
     // direct google login
     const GoogleSignIn = () =>{
-        setLoading(true);
         return signInWithPopup(auth, googleProvider);
+        setLoading(true);
     }
 
     // direct github login
     const githubSignIn = () =>{
-        setLoading(true);
         return signInWithPopup(auth, githubProvider)
+        setLoading(true);
     }
 
     // onAuthStateChanged state change
     useEffect(() =>{
        const unSubscribe = onAuthStateChanged(auth, loggedUser =>{
-           setLoading(false);
         //    console.log("Logged in user inside auth state", loggedUser)
            setUser(loggedUser);
+           setLoading(false);
         })
 
         return () =>{
